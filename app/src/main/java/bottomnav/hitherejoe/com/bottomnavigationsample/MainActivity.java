@@ -23,8 +23,7 @@ public class MainActivity extends AppCompatActivity {
         textSchedules = (TextView) findViewById(R.id.text_schedules);
         textMusic = (TextView) findViewById(R.id.text_music);
 
-        BottomNavigationView bottomNavigationView = (BottomNavigationView)
-                findViewById(R.id.bottom_navigation);
+        BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottom_navigation);
 
         bottomNavigationView.setOnNavigationItemSelectedListener(
                 new BottomNavigationView.OnNavigationItemSelectedListener() {
